@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- main CSS-->
+    <link href="main.css" , rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!--Nanum Gothic-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    
+    <title>Sillock</title>
+</head>
+
+<body style="background-color: #2A3BFF;">
+
+    <!-- Image and text -->
+    <nav class="navbar navbar-dark" style="background-color: #2A3BFF;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="image/logo.svg" alt="" width="30" height="24" class="d-inline-block align-top">
+                Sillock
+            </a>
+            <img src="image/login.svg">
+        </div>
+    </nav>
+    <div class="container-md pt-5" style="background-color: #2A3BFF; max-width: 1200px;">
+        <div class="nav nav-tabs nav-justified" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                type="button" role="tab" aria-controls="nav-home" aria-selected="true">서비스 소개</button>
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                type="button" role="tab" aria-controls="nav-profile" aria-selected="false">이용안내</button>
+            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                type="button" role="tab" aria-controls="nav-contact" aria-selected="false">인증서 발급</button>
+        </div>
+        <div class="text-center p-5" style="max-width: 600px; margin: auto">
+            <img src="image/card.svg" class="img-fluid" alt="card">
+        </div>
+    </div>
+    <div class="container-md pt-5 pb-5" style="background-color: #fff; border-radius:10px 10px 0 0; max-width: 1800px;">
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="col-lg-8 mb-5" style="margin:auto;">
+                    <div class="alert alert-info alert-dismissible fade show " role="alert">
+                        <span class="badge bg-info text-light fs-6 me-3">공지</span>
+                        <a href="#" class="alert-link fs-6">실록 서비스 이용공지 사항을 알려드립니다.
+                        </a>
+                        <span class="badge rounded-pill bg-warning ms-3">3</span>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="col-lg-8" style="margin:auto;">
+                    <h2 class="fw-bold lh-lg">내 포트폴리오<span class="text-secondary m-3">2</span></h2>
+                    <h4 class="text-secondary">포트폴리오를 간편하게 만들어보세요.</h4>
+                    <div class="d-md-flex justify-content-md-around align-items-md-center pt-5">
+                        <a href="#"><img class="p-2" src="image/portfolio.svg"></a>
+                        <a href="#"><img class="p-2" src="image/portfolio.svg"></a>
+                        <a href="#"><img class="p-2" src="image/portfolio.svg"></a>
+                        <a href="#"><img class="p-2" src="image/portfolio.svg"></a>
+                        <a href="file:///D:/Users/qkrdm/Desktop/Sillock_web/portfolio.html"><img class="p-2" src="image/por_plus.svg"></a>
+                    </div>
+                </div>
+                <div class="col-lg-8 mt-5 mb-5" style="margin: auto;">
+                    <h2 class="fw-bold lh-lg">증명서 목록<span class="text-secondary m-3">5</span></h2>
+                    <h4 class="text-secondary">보유한 증명서의 상세내용을 확인해보세요.</h4>
+                    <div class="d-md-flex justify-content-md-around align-items-md-center pt-5">
+                        <a href="#"><img class="p-2" src="image/certificate.svg"></a>
+                        <a href="#"><img class="p-2" src="image/certificate.svg"></a>
+                        <a href="#"><img class="p-2" src="image/certificate.svg"></a>
+                        <a href="#"><img class="p-2" src="image/certificate.svg"></a>
+                        <a href="#"><img class="p-2" src="image/cer_add.svg"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <div class="row m-5 p-5" style="background-color:#f5f5ff; margin: auto;">
+                    <div class="col-lg-6">
+                        <h2 class="fw-bold lh-lg">간편하게 발급하고<br>안전하게 보관할 수 있는 증명서,</h2>
+                        <h1 class="fw-bolder lh-lg mt-3">SILLOCK</h1>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <img class="m-3" src="image/sillock.svg" class="img-fluid" alt="sillock"
+                            style="max-width: 250px;">
+                    </div>
+                </div>
+                <hr class="m-5">
+                <div class="row m-5 p-5" style="margin: auto;">
+                    <div class="col-lg-6 text-center">
+                        <img class="m-3" src="image/port_img.svg" class="img-fluid" alt="port_img"
+                            style="max-width: 250px;">
+                    </div>
+                    <div class="col-lg-6">
+                        <h1 class="fw-bold lh-lg">당신의 이력을 정리해보세요</h1>
+                        <h2 class="fw-bold lh-lg mt-3">포트폴리오 작성을<br>쉽고 빠르게!</h2>
+                        <div class="d-flex justify-content-end">
+                            <p><a class="btn btn-secondary btn-lg" href="#" role="button">+ 더보기</a></p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="m-5">
+                <div class="row m-5 p-5" style="background-color:#f5f5ff; margin: auto;">
+                    <div class="col-lg-6 text-center">
+                        <h1 class="fw-bold lh-lg">흩어져 있는 나의 증명서를<br>Klip 지갑으로 한눈에 확인해보세요</h1>
+                        <p><a class="btn btn-outline-primary btn-lg mt-3" href="#" role="button">> Kilp 이용방법</a></p>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <img class="m-3" src="image/search.svg" class="img-fluid" alt="port_img"
+                            style="max-width: 250px;">
+                    </div>
+                </div>
+                <hr class="m-5">
+                <div class="row m-5 p-5" style="margin: auto;">
+                    <div class="col-lg-6 text-center">
+                        <img class="m-3" src="image/blockchain.svg" class="img-fluid" alt="port_img"
+                            style="max-width: 250px;">
+                    </div>
+                    <div class="col-lg-6 text-center align-self-center">
+                        <h1 class="fw-bold lh-lg">블록체인 기술을 사용하여<br>안심하고 이용할 수 있습니다</h1>
+                    </div>
+                </div>
+                <hr class="m-5">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" style="background-color:#f5f5ff;">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="2000">
+                        <div class="col-lg text-center">
+                            <img class="m-3" src="image/port_img.svg" class="img-fluid" alt="port_img"
+                                style="max-height: 250px;">
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <div class="col-lg text-center">
+                            <img class="m-3" src="image/search.svg" class="img-fluid" alt="port_img"
+                                style="max-height: 250px;">
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="col-lg text-center">
+                            <img class="m-3" src="image/blockchain.svg" class="img-fluid" alt="port_img"
+                                style="max-height: 250px;">
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"  data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"  data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="col-lg-8" style="margin:auto;">
+                    <h4 class="fw-bold lh-lg">+ 친구추가</h4>
+                    <!--Make sure the form has the autocomplete function switched off:-->
+                    <form class="d-flex" autocomplete="off" action="#">
+                        <div class="autocomplete" style="width:90%">
+                            <input class="form-control form-control-lg" id="myInput" type="search" aria-label="Search"
+                                name="myCountry" placeholder="친구ID">
+                        </div>
+                        <input class="btn btn-outline-primary ms-2" type="submit" value="검색" style="width: 10%;">
+                    </form>
+                    <div class="d-flex justify-content-end m-2">
+                        <button type="button" class="btn btn-link btn-lg text-secondary text-decoration-none m-2">
+                            친구목록<i class="fas fa-address-book ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-8" style="margin:auto;">
+                    <h2 class="fw-bold lh-lg">내 증명서 양식<span class="text-secondary m-3">3</span></h2>
+                    <h4 class="text-secondary">나에게 맞는 증명서를 찾아보세요.</h4>
+                    <div class="d-md-flex justify-content-md-around align-items-md-center pt-5">
+                        <a href="#"><img class="p-2" src="image/cer_form.svg"></a>
+                        <a href="#"><img class="p-2" src="image/cer_form.svg"></a>
+                        <a href="#"><img class="p-2" src="image/cer_form.svg"></a>
+                        <a href="#"><img class="p-2" src="image/cer_form.svg"></a>
+                        <a href="#"><img class="p-2" src="image/cer_f_plus.svg"></a>
+                    </div>
+                </div>
+                <div class="col-lg-8 mt-5" style="margin: auto;">
+                    <h2 class="fw-bold lh-lg">증명서 발급</h2>
+                    <h4 class="text-secondary">다양한 증명서를 발급해보세요.</h4>
+                    <div class="text-center border border-3 border-primary m-5 p-5" style="background-color: #F1F8FF;">
+                        <img class="mx-auto d-block mb-3" src="image/issue.svg" style="margin: auto" />
+                        <button type="button" class="btn btn-primary btn-lg">증명서 발급하러 가기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-md p-3" style="background-color: #eeeeee; max-width: 1800px;">
+        <div class="col-lg-8 text-center" style="margin:auto;">
+            <p class="text-start text-secondary pt-3 pb-3">개인정보처리방침 | 전자민원접수 | 공지사항 | 이용약관 | 이메일무단수집거부</p>
+            <p class="text-start">주소 : 서울특별시 금천구 서부샛길 606 가산 대성디폴리스 A동 27층</p>
+            <p class="text-start">대표전화 : 1234-5678 (해외 +82-2-7890-1234)</p>
+            <p class="text-secondary pt-3">Copyright © Byobl. All rights reserved.</p>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+    <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>
